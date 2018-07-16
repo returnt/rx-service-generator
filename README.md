@@ -25,7 +25,7 @@ allprojects {
 - **App level `build.gradle`**
 ```gradle
 dependencies {
-    implementation 'com.github.returnt:rx-service-generator:1.0.0'
+    implementation 'com.github.returnt:rx-service-generator:1.0.1'
 }
 ```
 
