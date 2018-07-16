@@ -48,7 +48,7 @@ dependencies {
 
 ## Example Code 
 
-`MyServiceGenerator` - To begin, extends from ServiceGenerator, and use all methods
+`RxServiceGenerator` - To begin, extends from ServiceGenerator, and use all methods
 
 ```java
 public final class RxServiceGenerator extends ServiceGenerator {
