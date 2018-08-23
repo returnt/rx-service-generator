@@ -25,7 +25,7 @@ allprojects {
 - **App level `build.gradle`**
 ```gradle
 dependencies {
-    implementation 'com.github.returnt:rx-service-generator:1.0.0'
+    implementation 'com.github.returnt:rx-service-generator:1.0.1'
 }
 ```
 
@@ -48,7 +48,7 @@ dependencies {
 
 ## Example Code 
 
-`MyServiceGenerator` - To begin, extends from ServiceGenerator, and use all methods
+`RxServiceGenerator` - To begin, extends from ServiceGenerator, and use all methods
 
 ```java
 public final class RxServiceGenerator extends ServiceGenerator {
