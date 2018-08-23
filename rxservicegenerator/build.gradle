@@ -25,13 +25,17 @@ ext {
 }
 
 dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
+
     //retrofit2
     implementation "com.squareup.retrofit2:retrofit:${retrofitLibVersion}"
     implementation "com.squareup.retrofit2:converter-gson:${retrofitLibVersion}"
     implementation "com.squareup.retrofit2:adapter-rxjava2:${retrofitLibVersion}"
 
-    //rx java
+    //rx java and android
     implementation 'io.reactivex.rxjava2:rxjava:2.1.13'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
 
     //http
     implementation "com.squareup.okhttp3:okhttp:${okhttp3LibVersion}"
